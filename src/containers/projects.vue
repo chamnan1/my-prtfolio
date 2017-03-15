@@ -38,8 +38,10 @@ export default {
   },
   methods: {
     loadProjects() {
+      this.$Progress.start();
       this.axios.get('https://api.github.com/users/zickfz/repos').then((response) => {
         this.projects = response.data;
+        this.$Progress.finish();
       });
     },
   },

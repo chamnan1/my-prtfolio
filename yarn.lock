@@ -4538,6 +4538,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-axios@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/vue-axios/-/vue-axios-2.0.1.tgz#fc7f5f06d1f9190f24feca232c4c11dffba54024"
+
 vue-hot-reload-api@^2.0.11:
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.0.11.tgz#bf26374fb73366ce03f799e65ef5dfd0e28a1568"
@@ -4558,6 +4562,10 @@ vue-loader@^11.1.4:
     vue-hot-reload-api "^2.0.11"
     vue-style-loader "^2.0.0"
     vue-template-es2015-compiler "^1.2.2"
+
+vue-progressbar@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/vue-progressbar/-/vue-progressbar-0.7.1.tgz#ae88e4e840803a9a8fe7307bee44d1da99e2ae69"
 
 vue-resource@^1.2.1:
   version "1.2.1"

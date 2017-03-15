@@ -2,7 +2,7 @@
   <nav class="nav has-shadow" >
     <div class="nav-left">
       <router-link class="nav-item is-brand" to="/">
-        Home
+            <i class="fa fa-home"></i>Home
       </router-link>
       <router-link class="nav-item is-tab" to="/dashboard">
         <i class="fa fa-dashboard"></i> Dashboard
