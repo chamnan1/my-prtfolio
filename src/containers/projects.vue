@@ -2,6 +2,7 @@
 <template lang="html">
   <div id="projects">
     <div class="columns">
+      <vue-progress-bar></vue-progress-bar>
       <div class="column is-half">
         <div class="notification">
           Github repositories
@@ -28,6 +29,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: 'projects',
@@ -40,8 +42,8 @@ export default {
     loadProjects() {
       this.$Progress.start();
       this.axios.get('https://api.github.com/users/zickfz/repos').then((response) => {
-        this.projects = response.data;
         this.$Progress.finish();
+        this.projects = response.data;
       });
     },
   },

@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueProgressBar from 'vue-progressbar';
 import navbar from './components/navbar';
 import router from './router';
+import App from './App';
 
 const options = {
   color: '#bffaf3',
@@ -18,7 +19,6 @@ const options = {
 
 Vue.use(VueProgressBar, options);
 
-
 /* eslint-disable no-new */
 new Vue({
   template: `
@@ -33,6 +33,6 @@ new Vue({
   `,
   router,
   components: {
-    navbar,
+    navbar, App,
   },
 }).$mount('#app');
