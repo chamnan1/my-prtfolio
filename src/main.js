@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueProgressBar from 'vue-progressbar';
+import VueTyperPlugin from 'vue-typer';
 import navbar from './components/navbar';
 import router from './router';
-
 
 const options = {
   color: '#bffaf3',
@@ -17,6 +17,7 @@ const options = {
   inverse: false,
 };
 
+Vue.use(VueTyperPlugin);
 Vue.use(VueProgressBar, options);
 
 /* eslint-disable no-new */

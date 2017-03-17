@@ -1,6 +1,7 @@
 <!-- projects -->
 <template lang="html">
-  <div id="projects"><vue-progress-bar></vue-progress-bar>
+  <div id="projects">
+    <vue-progress-bar></vue-progress-bar>
     <div class="columns">
       <div class="column is-half">
         <div class="notification">
