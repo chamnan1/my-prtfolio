@@ -1,8 +1,7 @@
 <!-- projects -->
 <template lang="html">
-  <div id="projects">
+  <div id="projects"><vue-progress-bar></vue-progress-bar>
     <div class="columns">
-      <vue-progress-bar></vue-progress-bar>
       <div class="column is-half">
         <div class="notification">
           Github repositories

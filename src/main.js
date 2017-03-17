@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueProgressBar from 'vue-progressbar';
 import navbar from './components/navbar';
 import router from './router';
-import App from './App';
+
 
 const options = {
   color: '#bffaf3',
@@ -13,7 +13,7 @@ const options = {
     opacity: '0.6s',
   },
   autoRevert: true,
-  location: 'left',
+  location: 'top',
   inverse: false,
 };
 
@@ -33,6 +33,6 @@ new Vue({
   `,
   router,
   components: {
-    navbar, App,
+    navbar,
   },
 }).$mount('#app');
