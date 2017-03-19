@@ -4,7 +4,6 @@ import VueTyperPlugin from 'vue-typer';
 import navbar from './components/navbar';
 import router from './router';
 
-
 const options = {
   color: '#bffaf3',
   failedColor: '#874b4b',
