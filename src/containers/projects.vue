@@ -12,7 +12,7 @@
             <thead>
               <tr>
                 <th>Project Name</th>
-                <th>Url</th>
+                <th>URL</th>
                 <th>Description</th>
               </tr>
             </thead>

@@ -1,0 +1,11 @@
+{
+ "name": "portfolio",
+ "version": "1.0.0",
+ "description": "portfolio",
+ "author": "zickfz",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express",
+   "start": "node server.js"
+ }
+}
