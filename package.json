@@ -7,8 +7,9 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "deploy": "gh-pages -d dist",
+    "build": "rimraf dist && webpack --progress --hide-modules --config build/webpack.prod.conf.js",
+    "test": "karma start build/karma.conf.js --single-run",
+    "deploy": "node_modules/gh-pages/bin/gh-pages -d dist",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
